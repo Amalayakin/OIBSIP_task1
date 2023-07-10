@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@600&family=Roboto:wght@300&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #17e7b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+
+}
+.cals{
+    width:23%;
+    height: 60%;
+    background-color: #FEDE00;
+    padding-left: 10px;
+    padding-right: auto;
+    padding-top: 15px;
+    border-radius: 5%;
+    
+    
+}
+.display{
+    width: calc(100% - 10px);
+    height: calc(100% - 73%);
+    background-color: #1a2237;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.keys{
+    width: calc(100% - 10px);
+    height:67%;
+    background-color: #FEDE00;
+    padding-left: 3px;
+    padding-top: 10px;
+    border-radius: 2%;
+   
+   
+}
+.row1-but{
+     display: grid;
+    grid-template-columns:   repeat(2,97.8px) 55px;
+    margin-top: 3px;
+    
+}
+.but1{
+    width: 40px;
+    height: 40px;
+    background-color: #17e7b7;
+}
+.but5{
+    width: 90px;
+    height: 40px;
+    background-color: #F52EC0;
+}
+.but2{
+    width: 60px;
+    height: 40px;
+    background-color: #F5631A;
+}
+.but3{
+    width: 190.7px;
+    height: 40px;
+    background-color: #F52EC0;
+    border-bottom-right-radius: 10px;
+}
+.ac-but{
+    border-top-left-radius: 10px;
+}
+.plusbut{
+    border-top-right-radius: 10px;
+}
+.zerobut{
+    border-bottom-left-radius: 10px; 
+}
+button{
+    border: 0px;
+}
+.row2-but{
+    display: grid;
+    grid-template-columns: repeat(4,65px);
+    margin-top: 3px;
+}
+.preVal{
+    height: calc(100% - 50%);
+    width: 100%;
+   
+    padding: 10px 7px;
+    color: #c9b98e;
+}
+.currentVal{
+    text-align: end;
+    padding: 7px 5px;
+    color: #faebd7;
+    font-size: larger;
+
+
+
+  
+}
